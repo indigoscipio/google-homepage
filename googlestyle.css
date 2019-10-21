@@ -1,0 +1,121 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+
+body{
+    font-size: 16px;
+    color: gray;
+}
+
+.main{
+    text-align: center;
+    position: relative;
+    width: 50%;
+    top: 180px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    
+}
+
+.navbar{
+    width: 100%;
+    position: absolute;
+}
+
+
+.navbar li{
+    float: right;
+    display: inline;
+    padding: 15px;
+}
+
+.footer{
+    background: rgb(241, 241, 241);
+    width: 100%;
+    display: block;
+    position: fixed;
+    bottom: 0;
+}
+
+.footer li.footer-language{
+    display: block;
+    margin-bottom: 15px;
+    padding-left: 45px;
+}
+
+.footer-right{
+    padding-right: 30px;
+    float: right;
+    margin-bottom: 15px;
+}
+
+.footer-left{
+    width: 100%;
+    position: absolute;
+    padding-left: 30px;
+    float:left;
+    margin-bottom: 15px;
+}
+
+.footer li{
+    display: inline;
+    padding: 15px;
+}
+
+.main img{
+    padding: 20px;
+    width: 300px;
+}
+.main .search-bar{
+}
+.main form input{
+    border-style: none;
+    height: 30px;
+    width: 50%;
+    border-radius: 30px;
+    padding: 10px 50px;
+}
+
+
+.main .search-bar img{
+    display: block;
+    width: 15px;
+}
+
+input[type=text]{
+    background-image: url(./Images/magnifying-glass.png);
+    background-repeat: no-repeat;
+    background-position-x: 20px;
+    background-position-y: 50%;
+    background-size: 15px;
+}
+
+.main .search-button{
+    margin: 20px 0;
+}
+
+.main .search-button button{
+    font-size: 14px;
+    width: 150px;
+    padding: 15px;
+    color: rgb(83, 83, 83);
+    margin: 10px;
+    background-color: rgb(235, 235, 235);
+    border:none;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.main p a:link{
+    color: blue;
+    text-decoration: none;
+}
+
+.shadow {
+    box-shadow: 1px 1px 5px 3px #ccc;
+  }
